@@ -191,6 +191,7 @@ const sidebar = {
 export default defineConfig({
   extends: teekConfig,
   title: "l-pc-front 项目文档",
+  base: "/l-pc-front-docs/",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
