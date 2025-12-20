@@ -227,7 +227,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: "https://l-pc-front-docs.example.com",
+    hostname: "https://gitee.com/njy_3/l-pc-front-docs",
   },
   themeConfig: {
     logo: "/teek-logo-mini.svg",
@@ -256,7 +256,7 @@ export default defineConfig({
     },
     editLink: {
       text: "在 Gitee 上编辑此页",
-      pattern: "https://gitee.com/njy_3/l-pc-front/edit/master/docs/docs/project/:path",
+      pattern: "https://gitee.com/njy_3/l-pc-front-docs/blob/main/docs/:path",
     },
   },
   vite: {

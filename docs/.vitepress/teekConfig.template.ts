@@ -85,8 +85,8 @@ export const teekConfig = defineTeekConfig({
   },
   // 文章默认的作者信息
   author: {
-    name: "Teeker", // 作者名称
-    link: "https://github.com/Kele-Bingtang", // 点击作者名称后跳转的链接
+    name: "百想科技", // 作者名称
+    link: "https://gitee.com/njy_3/l-pc-front-docs", // 点击作者名称后跳转的链接
   },
   // 公告配置
   notice: {
@@ -235,10 +235,10 @@ export const teekConfig = defineTeekConfig({
     enabled: true, // 是否启用友情链接卡片
     list: [
       {
-        name: "Teeker",
+        name: "百想科技",
         desc: "朝圣的使徒，正在走向编程的至高殿堂！",
         avatar: "https://testingcf.jsdelivr.net/gh/Kele-Bingtang/static/user/avatar2.png",
-        link: "http://notes.teek.top/",
+        link: "https://gitee.com/njy_3/",
       },
     ], // 友情链接数据列表
     title: "${icon}友情链接", // 卡片标题
@@ -275,31 +275,31 @@ export const teekConfig = defineTeekConfig({
       },
     ],
     // 自定义额外信息
-    appendInfo: [{ key: "index", label: "站点作者", value: "Teeker" }],
+    appendInfo: [{ key: "index", label: "站点作者", value: "百想科技" }],
   },
   // 社交信息配置，通常为一个社交图标，点击后将会跳转到社交软件的个人主页
   social: [
-    {
-      icon: "mdi:github",
-      name: "GitHub",
-      link: "https://github.com/kele-bingtang",
-    },
+    // {
+    //   icon: "mdi:github",
+    //   name: "GitHub",
+    //   link: "https://github.com/kele-bingtang",
+    // },
     {
       icon: "simple-icons:gitee",
       name: "Gitee",
-      link: "https://gitee.com/kele-bingtang",
+      link: "https://gitee.com/njy_3/",
     },
   ],
   // 页脚信息组配置
   footerGroup: [
-    {
-      title: "外部链接",
-      links: [
-        { name: "示例 1", link: "https://vp.teek.top", icon: "icon-github" },
-        { name: "示例 2", link: "https://vp.teek.top" },
-        { name: "示例 3", link: "https://vp.teek.top" },
-      ],
-    },
+    // {
+    //   title: "外部链接",
+    //   links: [
+    //     { name: "示例 1", link: "https://vp.teek.top", icon: "icon-github" },
+    //     { name: "示例 2", link: "https://vp.teek.top" },
+    //     { name: "示例 3", link: "https://vp.teek.top" },
+    //   ],
+    // },
     {
       title: "内部链接",
       links: [
@@ -328,7 +328,7 @@ export const teekConfig = defineTeekConfig({
     },
     // ICP 备案信息配置
     icpRecord: {
-      name: "桂ICP备2021009994号",
+      name: "",
       link: "http://beian.miit.gov.cn/",
     },
     // 网络安全备案信息配置
