@@ -23,6 +23,7 @@ const docMapping = {
   "低代码平台文档": "lowcode",
   "低代码平台详细设计": "lowcode-detail",
   "API文档": "api",
+  "统计列表配置": "统计列表配置.md",
   
   // 组件库
   "组件库": "components",
@@ -120,7 +121,8 @@ const sidebar = {
       items: [
         { text: "低代码平台文档", link: getProjectLink("低代码平台文档") },
         { text: "低代码平台详细设计", link: getProjectLink("低代码平台详细设计") },
-        { text: "API文档", link: getProjectLink("API文档") }
+        { text: "API文档", link: getProjectLink("API文档") },
+        { text: "统计列表配置", link: "/project/统计列表配置.md" }
       ]
     },
     
