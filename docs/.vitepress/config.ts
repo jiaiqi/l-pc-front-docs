@@ -14,26 +14,26 @@ const docMapping = {
   "项目概览": "overview",
   "项目架构设计": "architecture",
   "快速开始": "quickstart",
-  
+
   // 架构设计
   "状态管理": "state-management",
   "路由系统文档": "routing",
-  
+
   // 核心功能
   "低代码平台文档": "lowcode",
   "低代码平台详细设计": "lowcode-detail",
   "API文档": "api",
   "统计列表配置": "统计列表配置.md",
-  
+
   // 组件库
   "组件库": "components",
-  
+
   // 业务模块
   "业务模块文档": "business-modules",
-  
+
   // 高级功能
   "高级功能文档": "advanced-features",
-  
+
   // 开发指南
   "开发指南": "development-guide",
   "使用指南": "usage",
@@ -41,14 +41,14 @@ const docMapping = {
   "Git Tag 使用说明": "git-tag-usage",
   "Git Tag 提交工具使用说明": "git-tag-tool",
   "前端更新检查功能说明": "update-check",
-  
+
   // 开发工具与脚本
   "开发工具与脚本": "dev-tools",
-  
+
   // 工具与部署
   "构建部署": "deployment",
   "离线开发准备清单": "offline-dev",
-  
+
   // 故障排查
   "故障排查指南": "troubleshooting"
 };
@@ -104,7 +104,7 @@ const sidebar = {
         { text: "快速开始", link: getProjectLink("快速开始") }
       ]
     },
-    
+
     // 架构设计
     {
       text: "🏗️ 架构设计",
@@ -114,7 +114,7 @@ const sidebar = {
         { text: "路由系统文档", link: getProjectLink("路由系统文档") }
       ]
     },
-    
+
     // 核心功能
     {
       text: "🚀 核心功能",
@@ -125,7 +125,7 @@ const sidebar = {
         { text: "统计列表配置", link: "/project/统计列表配置.md" }
       ]
     },
-    
+
     // 组件库
     {
       text: "🧩 组件库",
@@ -133,7 +133,7 @@ const sidebar = {
         { text: "组件库概览", link: getProjectLink("组件库") }
       ]
     },
-    
+
     // 业务模块
     {
       text: "📦 业务模块",
@@ -141,7 +141,7 @@ const sidebar = {
         { text: "业务模块文档", link: getProjectLink("业务模块文档") }
       ]
     },
-    
+
     // 高级功能
     {
       text: "🚀 高级功能",
@@ -149,7 +149,7 @@ const sidebar = {
         { text: "高级功能文档", link: getProjectLink("高级功能文档") }
       ]
     },
-    
+
     // 开发指南
     {
       text: "📖 开发指南",
@@ -162,7 +162,7 @@ const sidebar = {
         { text: "前端更新检查", link: getProjectLink("前端更新检查功能说明") }
       ]
     },
-    
+
     // 开发工具与脚本
     {
       text: "🛠️ 开发工具与脚本",
@@ -170,7 +170,7 @@ const sidebar = {
         { text: "开发工具与脚本", link: getProjectLink("开发工具与脚本") }
       ]
     },
-    
+
     // 工具与部署
     {
       text: "🔧 工具与部署",
@@ -179,7 +179,7 @@ const sidebar = {
         { text: "离线开发准备", link: getProjectLink("离线开发准备清单") }
       ]
     },
-    
+
     // 故障排查
     {
       text: "❓ 故障排查",
@@ -193,7 +193,7 @@ const sidebar = {
 export default defineConfig({
   extends: teekConfig,
   title: "l-pc-front 项目文档",
-  base: "/l-pc-front-docs/",
+  base: process?.env?.GITHUB_ACTIONS ? "/l-pc-front-docs/" : "/",
   description: description,
   cleanUrls: false,
   lastUpdated: true,
