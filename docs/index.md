@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /project/quickstart
+      link: /overview/quickstart
     - theme: alt
       text: 项目概览
-      link: /project/overview
+      link: /overview/overview
     - theme: alt
       text: GitHub
       link: https://gitee.com/njy_3/l-pc-front
@@ -98,36 +98,36 @@ yarn build:version    # 带版本号构建
 ## 📚 文档导航
 
 ### 📦 项目概览
-- [项目介绍](/project/overview) - 了解项目背景和定位
-- [技术架构](/project/architecture) - 整体技术架构设计
-- [快速开始](/project/quickstart) - 环境搭建和项目启动
+- [项目介绍](/overview/overview) - 了解项目背景和定位
+- [技术架构](/architecture/architecture) - 整体技术架构设计
+- [快速开始](/overview/quickstart) - 环境搭建和项目启动
 
 ### 🏗️ 架构设计
-- [架构概览](/project/architecture) - 分层架构和设计思路
-- [状态管理](/project/state-management) - Vuex 状态管理架构
-- [路由系统](/project/routing) - Vue Router 路由设计
+- [架构概览](/architecture/architecture) - 分层架构和设计思路
+- [状态管理](/architecture/state-management) - Vuex 状态管理架构
+- [路由系统](/architecture/routing) - Vue Router 路由设计
 
 ### 🚀 核心功能
-- [低代码平台](/project/lowcode) - 可视化页面构建器
-- [低代码详细设计](/project/lowcode-detail) - 技术实现细节
-- [API接口文档](/project/api) - 数据通信和接口规范
+- [低代码平台](/core-features/lowcode-platform) - 可视化页面构建器
+- [低代码详细设计](/core-features/lowcode-design) - 技术实现细节
+- [API接口文档](/core-features/api-docs) - 数据通信和接口规范
 
 ### 🧩 组件库
-- [组件库概览](/project/components) - 完整组件列表
+- [组件库概览](/core-features/components) - 完整组件列表
 
 ### 📖 开发指南
-- [快速开始](/project/quickstart) - 开发环境准备
-- [使用指南](/project/usage) - 功能使用说明
-- [开发规范](/project/development-guide) - 代码规范和最佳实践
-- [最佳实践](/project/best-practices) - 经验总结和技巧
+- [快速开始](/overview/quickstart) - 开发环境准备
+- [使用指南](/development/usage) - 功能使用说明
+- [开发规范](/development/guide) - 代码规范和最佳实践
+- [最佳实践](/development/best-practices) - 经验总结和技巧
 
 ### 🔧 工具与部署
-- [构建部署](/project/deployment) - 构建和部署流程
-- [离线开发准备](/project/offline-dev) - 离线环境配置
-- [前端更新检查](/project/update-check) - 版本更新机制
+- [构建部署](/deployment/build) - 构建和部署流程
+- [离线开发准备](/overview/offline-dev) - 离线环境配置
+- [前端更新检查](/deployment/update-check) - 版本更新机制
 
 ### ❓ 故障排查
-- [故障排查指南](/project/troubleshooting) - 常见问题解决方案
+- [故障排查指南](/troubleshooting/troubleshooting) - 常见问题解决方案
 
 ## 💡 技术亮点
 

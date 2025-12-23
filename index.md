@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: "🚀 快速开始 →"
-      link: /QUICK_START
+      link: /GUIDE/QUICK_START
     - theme: alt
       text: "📚 查看文档"
-      link: /OVERVIEW
+      link: /GUIDE/OVERVIEW
     - theme: alt
       text: "⭐ 在 Gitee 查看"
       link: https://gitee.com/njy_3/l-pc-front
