@@ -62,13 +62,13 @@ export default defineConfig({
       next: "下一页",
     },
     nav: [
-      { text: "🏠 首页", link: "/" },
+      // { text: "🏠 首页", link: "/" },
       { text: "📚 项目概览", link: "/overview/overview" },
       { text: "🏗️ 架构设计", link: "/architecture/architecture" },
       { text: "🚀 核心功能", link: "/core-features/lowcode-platform" },
-      { text: "📖 开发指南", link: "/development/guide" },
+      // { text: "📖 开发指南", link: "/development/guide" },
       { text: "✏️ 文档指南", link: "/guide/typesetting" },
-      { text: "🔧 部署运维", link: "/deployment/build" },
+      // { text: "🔧 部署运维", link: "/deployment/build" },
       { text: "❓ 故障排查", link: "/troubleshooting/troubleshooting" },
       { text: "🛠️ 工具支持", link: "/tools/dev-tools" }
     ],

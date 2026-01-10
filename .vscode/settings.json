@@ -1,0 +1,6 @@
+{
+  "markdown.copyFiles.destination": {
+    "/docs/**/*.md": "${documentWorkspaceFolder}/docs/public/image/${documentBaseName}/"
+  },
+  "vscode-office.viewAbsoluteLocal": true
+}
