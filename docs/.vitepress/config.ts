@@ -62,97 +62,12 @@ export default defineConfig({
       next: "下一页",
     },
     nav: [
-      // { text: "🏠 首页", link: "/" },
+      { text: "🏠 首页", link: "/" },
       { text: "📚 项目概览", link: "/overview/overview" },
-      { text: "🏗️ 架构设计", link: "/architecture/architecture" },
       { text: "🚀 核心功能", link: "/core-features/lowcode-platform" },
-      // { text: "📖 开发指南", link: "/development/guide" },
+      { text: "🛠️ 工具支持", link: "/tools/dev-tools" },
       { text: "✏️ 文档指南", link: "/guide/typesetting" },
-      // { text: "🔧 部署运维", link: "/deployment/build" },
-      { text: "❓ 故障排查", link: "/troubleshooting/troubleshooting" },
-      { text: "🛠️ 工具支持", link: "/tools/dev-tools" }
     ],
-    // sidebar: {
-    //   "/overview/": [
-    //     {
-    //       text: "📚 项目概览",
-    //       items: [
-    //         { text: "项目概览", link: "/overview/overview" },
-    //         { text: "快速开始", link: "/overview/quickstart" },
-    //         { text: "离线环境开发准备", link: "/overview/offline-dev" }
-    //       ]
-    //     }
-    //   ],
-    //   "/architecture/": [
-    //     {
-    //       text: "🏗️ 架构设计",
-    //       items: [
-    //         { text: "架构设计", link: "/architecture/architecture" },
-    //         { text: "状态管理", link: "/architecture/state-management" },
-    //         { text: "路由系统", link: "/architecture/routing" }
-    //       ]
-    //     }
-    //   ],
-    //   "/core-features/": [
-    //     {
-    //       text: "🚀 核心功能",
-    //       items: [
-    //         { text: "低代码平台", link: "/core-features/lowcode-platform" },
-    //         { text: "低代码平台详细设计", link: "/core-features/lowcode-design" },
-    //         { text: "统计列表配置", link: "/core-features/statistics-list" },
-    //         { text: "组件库", link: "/core-features/components" },
-    //         { text: "API文档", link: "/core-features/api-docs" },
-    //         { text: "业务模块", link: "/core-features/business-modules" }
-    //       ]
-    //     }
-    //   ],
-    //   "/development/": [
-    //     {
-    //       text: "📖 开发指南",
-    //       items: [
-    //         { text: "开发指南", link: "/development/guide" },
-    //         { text: "使用指南", link: "/development/usage" },
-    //         { text: "最佳实践", link: "/development/best-practices" }
-    //       ]
-    //     }
-    //   ],
-    //   "/guide/": [
-    //     {
-    //       text: "✏️ 文档指南",
-    //       items: [
-    //         { text: "写作排版", link: "/guide/typesetting" },
-    //         { text: "结构化目录", link: "/guide/directory" }
-    //       ]
-    //     }
-    //   ],
-    //   "/deployment/": [
-    //     {
-    //       text: "🔧 部署运维",
-    //       items: [
-    //         { text: "构建部署", link: "/deployment/build" },
-    //         { text: "前端更新检查", link: "/deployment/update-check" }
-    //       ]
-    //     }
-    //   ],
-    //   "/troubleshooting/": [
-    //     {
-    //       text: "❓ 故障排查",
-    //       items: [
-    //         { text: "故障排查指南", link: "/troubleshooting/troubleshooting" }
-    //       ]
-    //     }
-    //   ],
-    //   "/tools/": [
-    //     {
-    //       text: "🛠️ 工具支持",
-    //       items: [
-    //         { text: "开发工具与脚本", link: "/tools/dev-tools" },
-    //         { text: "Git Tag 使用文档", link: "/tools/git-tag-usage" },
-    //         { text: "Git Tag 提交工具", link: "/tools/git-tag-tool" }
-    //       ]
-    //     }
-    //   ]
-    // },
     socialLinks: [
       {
         icon: "github",
