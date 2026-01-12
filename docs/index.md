@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/development-guide
+      link: /guide/quickstart
     - theme: alt
       text: 项目概览
       link: /overview/overview
