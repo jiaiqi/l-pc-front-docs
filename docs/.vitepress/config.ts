@@ -63,10 +63,10 @@ export default defineConfig({
     },
     nav: [
       { text: "🏠 首页", link: "/" },
-      { text: "📚 项目概览", link: "/overview/overview","activeMatch":"/guide/" },
-      { text: "🚀 核心功能", link: "/core-features/lowcode-platform","activeMatch":"/core-features/"  },
-      { text: "🛠️ 工具支持", link: "/tools/dev-tools","activeMatch":"/tools/"  },
-      { text: "✏️ 文档指南", link: "/guide/typesetting","activeMatch":"/document/guide/"  },
+      { text: "📚 项目概览", link: "/guide/overview", activeMatch: "/01.指南/" },
+      { text: "🚀 配置说明", link: "/features/overview", activeMatch: "/03.配置说明/" },
+      { text: "🛠️ 工具支持", link: "/tools/dev-tools", activeMatch: "/50.工具支持/" },
+      { text: "✏️ 文档指南", link: "/document/guide/typesetting", activeMatch: "/100.文档指南/" },
     ],
     socialLinks: [
       {
