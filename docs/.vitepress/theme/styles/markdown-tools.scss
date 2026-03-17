@@ -1,0 +1,46 @@
+/* Markdown 工具全局样式 */
+
+/* Toast 容器 */
+.markdown-tool-toast {
+  position: fixed;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  border: 1px solid transparent;
+}
+
+.markdown-tool-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.markdown-tool-toast-success {
+  border-color: var(--vp-c-green);
+  color: var(--vp-c-green);
+}
+
+.markdown-tool-toast-error {
+  border-color: var(--vp-c-red);
+  color: var(--vp-c-red);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .markdown-tool-toast {
+    top: 60px;
+    max-width: 90%;
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+}
